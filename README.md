@@ -38,16 +38,14 @@ class Person {
 ```
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## 2. What is an Object ?
 
 An object is an instance of a class. It represents a specific entity with its own set of state and behaviors.For example like "Dog" have colour,breed,sleeping and eating habits.
 So state is colour and breed here and behaviours is eating and sleeping habits.
 
 
-[ Code ] :-> Simple Code for creating an Object name p1. 
+[ Code ] :-> Simple Code for creating an Object name p1.
+
 ### Example:
 ```cpp
 class Person {
@@ -60,6 +58,7 @@ int main() {
     return 0;
 }
 ```
+
   
 ## 3. What is an Access Modifiers ?
 
