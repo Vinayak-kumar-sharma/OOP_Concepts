@@ -7,15 +7,15 @@ Welcome to the Object-Oriented Programming repository where we explore the funda
 
 ## Table of Contents
 
-- [## What is a Class?](#what-is-a-class)
-- ## [What is an Object?](#what-is-an-object)
-- ## [What is an Access Modifier?](#what-is-an-access-modifier)
-- ## [What is a Getter and Setter?](#what-is-a-getter-and-setter)
-- ## [What is a Constructor and Destructor?](#what-is-a-constructor-and-destructor)
-- ## [What is Encapsulation?](#what-is-encapsulation)
-- ## [What is Abstraction?](#what-is-abstraction)
-- ## [What is Inheritance?](#what-is-inheritance)
-- ## [What is Polymorphism?](#what-is-polymorphism)
+- [What is a Class?](#what-is-a-class)
+- [What is an Object?](#what-is-an-object)
+- [What is an Access Modifier?](#what-is-an-access-modifier)
+- [What is a Getter and Setter?](#what-is-a-getter-and-setter)
+- [What is a Constructor and Destructor?](#what-is-a-constructor-and-destructor)
+- [What is Encapsulation?](#what-is-encapsulation)
+- [What is Abstraction?](#what-is-abstraction)
+- [What is Inheritance?](#what-is-inheritance)
+- [What is Polymorphism?](#what-is-polymorphism)
 
 
 ## 1. What is a Class ?
