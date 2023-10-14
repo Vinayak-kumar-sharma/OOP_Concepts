@@ -56,7 +56,7 @@ public:
 int main() {
     Person p1;
     return 0;
-}
+};
 ```
 
   
@@ -71,6 +71,107 @@ int main() {
  2> private   :-> Members declared by the help of private keyword.They are accessed within the class and cannot be accessed directly.
  
  3> protected :->  Members declared by the help of protected kryword.Accessible from derived classes (subclasses) but not from outside the class. They provide a level of visibility between public and private.
+
+ ### Example:
+ 
+ ```cpp
+
+class Account {
+public:
+    string name; // Public: Accessible from anywhere.
+private:
+    int accountnumber; // Private: Accessible only within the class.
+protected:
+    int managerCode; // Protected: Accessible within the class and derived classes.
+};
+
+```
+
+## 4. What is a Getter and Setter ?
+
+Getters and setters are methods used to access and modify private or protected class members.
+
+### Example :
+
+```cpp
+
+class Hero{
+    private :
+        char level;
+    public :
+        int health;
+        void setLevel(char ch){
+            level = ch;
+        }
+        char getLevel(){
+            return level;
+        }
+};
+```
+
+
+## 4. What is a Constructor and Destructor ?
+
+Imagine of a pet robot.The constructor is like its "birth," and the destructor is when it's "retiring" and gets a farewell party.It means that constructors initialize objects when they are created, while
+
+destructors clean up resources when objects go out of scope. 
+
+Generally constructors are of three types : 1> Default Constructor, 2> Parameterized Constructor, 3> Copy Constructor
+
+1. Default Constructor:
+
+A default constructor is one that doesn't take any parameters. It initializes the object with default values.And if you do not make any constructor in the class then program have by default constructor.
+
+2. Parameterized Constructor:
+
+A parameterized constructor takes one or more parameters and initializes the object with the provided values.
+
+3. Copy Constructor:
+
+A copy constructor creates a new object by copying the values from an existing object of the same class,but it does not necessarily mean that the new object will reside at the same memory address.
+
+ Delegate Constructor :
+
+A delegate constructor allows one constructor to call another constructor in the same class.
+
+### Example :
+
+```cpp
+class Person{
+private :
+
+    string name;
+    int age;
+    int weight;
+    char gender;
+
+public :
+
+    Person(string n, int a, int w, char g){
+          // It is a parameterized Constructor.
+        name = n;
+        age = a;
+        weight =w;
+        gender = g;
+
+    }
+    Person(){
+        // It is default Constructor.
+        name ="unknown";
+        age =0;
+        weight =0;
+        gender ='n';
+
+    }
+};
+```
+
+## 5. What is Encapsulation ?
+
+Encapsulation is about bundling data and methods together while hiding the internal details.
+
+
+
      
 
 
