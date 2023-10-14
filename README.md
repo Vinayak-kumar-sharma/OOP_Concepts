@@ -1,4 +1,4 @@
-# Understanding OOP Concepts in C++
+Understanding OOP Concepts in C++
 An informational repository on Object-Oriented Programming concepts.
 ------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
