@@ -1,9 +1,9 @@
-Understanding OOP Concepts in C++
+Understanding OOPs Concepts in C++
 An informational repository on Object-Oriented Programming concepts.
 ------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-Welcome to the Object-Oriented Programming repository where we explore the fundamentals of Object-Oriented Programming (OOP). In this repository, we delve into the key concepts of classes,objects,encapsulation ,abstraction,inheritance,polymorphism,providing explanations and code examples.
+Welcome to the Object-Oriented Programming repository where we explore the fundamentals of Object-Oriented Programming (OOPs). In this repository, we delve into the key concepts of classes,objects,encapsulation ,abstraction,inheritance,polymorphism,providing explanations and code examples.
 
 ## Table of Contents
 
