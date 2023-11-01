@@ -166,9 +166,34 @@ public :
 };
 ```
 
-## 5. What is Encapsulation ?
+## 5. What is an Encapsulation ?
 
-Encapsulation is about bundling data and methods together while hiding the internal details.
+Encapsulation is about bundling data and methods together while hiding the internal details, that operate on that data into a single unit called a class.
+
+## 6. What is an Abstraction ?
+ Abstraction simplifies complex reality by focusing on essential properties and behaviors, ignoring irrelevant details. It focuses on what an object does rather than how it does it.
+
+ ## 7. What is an Inheritance ?
+ Inheritance allows you to create a new class based on an existing class, inheriting its properties and behaviors. Imagine an example of multi storey buliding with same base of foundation or the ground floor. 
+And Inheritance like parent and child.
+
+### Example :
+```cpp
+class Animal {  
+    public :
+    void eat(){
+        cout<<"Eating";
+    }
+};
+class peacock: public Animal {
+    public :
+    void sound(){
+        cout<<"Pe-Pe-cock ";
+    }
+};
+```
+
+ 
 
 
 
