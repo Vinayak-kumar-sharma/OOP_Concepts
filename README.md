@@ -284,11 +284,11 @@ class India: public Asia{
                      
 4. Hierarchical Inheritance: Multiple classes inherit from a single base class.
 
-         Class A                             Class B
+     *    Class A                             Class B
      ( Base Class ) ________________________( Derived Class )
-                  |                       
-                  |                         Class C
-                  |______________________( Derived Class )                  
+    *             |                       
+    *             |                         Class C
+    *             |______________________( Derived Class )                  
 
 ### Example :
 ```cpp
@@ -305,6 +305,8 @@ class Square : public Shape {
 };
 
 ```  
+Inheritance helps in establishes a hierarchy for code organization and modularity and also enhances extensibility by adding or modifying features.
+
 
 ## 7. What is an Polymorphism ?    
               
@@ -369,7 +371,11 @@ public:
 
 
 ```
+
 Polymorphism helps in code reuseability and extensibility and also enchance the adaptability.
+
+
+
 
 ### Learning:
 
