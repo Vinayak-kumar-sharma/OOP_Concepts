@@ -193,7 +193,198 @@ class peacock: public Animal {
 };
 ```
 
- 
+
+* Inheritance types are as follow:-> 
+1.Single Inheritance
+2.Multilevel Inheritance
+3.Multiple Inheritance
+4.Hierarchical Inheritance
+1. Single Inheritance: A derived class inherits from only one base class.
+                    Class A   ------------------>   Class B
+                  ( Base Class )                  ( Derived Class ) 
+  ### Example :
+
+```cpp
+class World {
+public:
+    void Totalbounadary() {
+        cout << "Total Land perimeter" << endl;
+    }
+};
+
+class Asia : public World {
+public:
+    void asiaBounary() {
+        cout << "Asia boundary perimeter" << endl;
+    }
+};
+
+```
+2. Multiple Inheritance: A derived class inherits from more than one base class.
+
+        *  Class(Shape)   and  Class(Color) two different class: and third Class(ColoredShape) inherit from these two classes.
+
+
+
+### Example :
+
+
+```cpp
+class Shape {
+public:
+    void typeofshapes() {
+        cout << "Triangle,Circle,Rectangle,Square, etc." << endl;
+    }
+};
+
+class Color {
+public:
+    void paint() {
+        cout << "Filling with color." << endl;
+    }
+};
+
+class ColoredShape : public Shape, public Color {
+
+};
+
+```
+
+
+3. Multilevel Inheritance: A derived class inherits from another derived class.
+
+
+       * Class(World) ---> Class(Asia)        : class Asia inheritate class World.
+       * Class(Asia)  ---> Class(India)       : class India inheritate class Asia.
+
+
+### Example :
+
+
+
+```cpp
+class World {
+public:
+    void Totalbounadary() {
+        cout << "Total Land perimeter" << endl;
+    }
+};
+
+class Asia : public World {
+public:
+    void asiaBounary() {
+        cout << "Asia boundary perimeter" << endl;
+    }
+};
+class India: public Asia{
+
+};
+
+```
+                     
+4. Hierarchical Inheritance: Multiple classes inherit from a single base class.
+
+         Class A                             Class B
+     ( Base Class ) ________________________( Derived Class )
+                  |                       
+                  |                         Class C
+                  |______________________( Derived Class )                  
+
+### Example :
+```cpp
+class Shape {
+
+};
+
+class Circle : public Shape {
+
+};
+
+class Square : public Shape {
+
+};
+
+```  
+
+## 7. What is an Polymorphism ?    
+              
+It is a fundamental concept in OOP that allows objects of different types to be treated as objects of a common type.
+This enables flexibility and extensibility in code design.
+
+Polymorphism types: 
+1.Compile-time Polymorphism
+2.Run-time Polymorphism
+
+1.Compile-time Polymorphism: Achieved through function overloading and operator overloading.
+
+### Example :
+
+
+```cpp
+
+
+class Addition {
+public:
+    int add(int a, int b) {
+        return a + b;
+    }
+  // function overloading takes place.
+
+    double add(double a, double b) {
+        return a + b;
+    }
+};
+
+
+```
+
+2. Run-time Polymorphism: Achieved through function overriding and virtual functions.
+
+### Example :
+
+```cpp
+
+class Shape {
+public:
+    virtual void draw() {
+        cout << "Drawing a shape." << endl;
+    }
+};
+
+
+class Circle : public Shape {
+public:
+    void draw(){
+        cout << "Drawing a circle." << endl;
+    }
+};
+
+
+class Square : public Shape {
+public:
+    void draw(){
+        cout << "Drawing a square." << endl;
+    }
+};
+
+
+```
+Polymorphism helps in code reuseability and extensibility and also enchance the adaptability.
+
+### Learning:
+
+OOP principles help developers can create well-organized, scalable, and maintainable software solutions across various domains, contributing to the efficiency and success of software engineering projects.
+
+Like: Code Reusability, Code Organization and Maintenance, Data Security and Access Control, Complexity Management, Flexibility and Adaptability, System Extensibility, Object Lifecycle Management, Modular 
+Design, Hierarchical Organization, Interoperability and Collaboration .
+
+
+
+
+
+
+
+
 
 
 
