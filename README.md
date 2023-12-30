@@ -284,13 +284,16 @@ class India: public Asia{
                      
 4. Hierarchical Inheritance: Multiple classes inherit from a single base class.
 
-     *    Class A                             Class B
-     ( Base Class ) ________________________( Derived Class )
-    *             |                       
-    *             |                         Class C
-    *             |______________________( Derived Class )                  
-
+        
 ### Example :
+
+
+       Class A                                 Class B
+     ( Base Class ) ________________________( Derived Class )
+                  |                       
+                  |                         Class C
+                  |______________________( Derived Class )                  
+
 ```cpp
 class Shape {
 
